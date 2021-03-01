@@ -1,0 +1,28 @@
+{
+  "name": "JS_TS_NEXT_GQL_RELAY",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "dependencies": {
+    "@emotion/react": "^11.1.5",
+    "emotion": "^11.0.0",
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "typescript": "^4.1.5",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@types/styled-components": "^5.1.7",
+    "babel-plugin-styled-components": "^1.12.0",
+    "styled-components": "^5.2.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

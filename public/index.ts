@@ -1,0 +1,1 @@
+import * as DeveloperProfile from "./lui.png";
