@@ -1,5 +1,5 @@
 import React from 'react'
-import { Develop } from '../../Components'
+import Mypage from '../../Components/Mypage/Mypage'
 
 interface Props {
     
@@ -7,9 +7,9 @@ interface Props {
 
 const develop : React.FC = () => {
     return (
-        <div>
-            <Develop />
-        </div>
+        <>
+            <Mypage />
+        </>
     )
 }
 

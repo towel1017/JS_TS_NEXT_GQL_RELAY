@@ -16,9 +16,9 @@ const Header = (props: Props) => {
                     DS Tool
                 </S.TitleText>
                 <S.DeveloperLinkWrapper>
-                    <Link href="/develop">
+                    <Link href="/mypage">
                         <span>
-                        Developer Info {">"}
+                        MY Info {">"}
                         </span>
                     </Link>
                 </S.DeveloperLinkWrapper>

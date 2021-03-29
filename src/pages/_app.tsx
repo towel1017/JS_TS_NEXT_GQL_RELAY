@@ -3,12 +3,15 @@ import { Global } from "@emotion/react";
 import type { AppProps, AppContext } from "next/app";
 import { Fragment } from "react";
 import GlobalStyle from "../Styles/GlobalStyle";
+import { RecoilRoot } from "recoil";
 
 const MyApp = ({Component , pageProps } : AppProps) => {
     return (
         <Fragment>
-            <Global styles={GlobalStyle} />
-            <Component {...pageProps} />
+            <RecoilRoot>
+                <Global styles={GlobalStyle} />
+                <Component {...pageProps} />
+            </RecoilRoot>
         </Fragment>
     )
 }

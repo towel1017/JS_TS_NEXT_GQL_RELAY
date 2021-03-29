@@ -3,6 +3,7 @@ import {css} from "@emotion/react";
 const GlobalStyle = css`
     * {
         margin : 0;
+        font-family : "NanumBarunGothic"
     }
     button {
         outline: none;
@@ -14,6 +15,7 @@ const GlobalStyle = css`
     button:focus {
         outline: none;
     }
+
 `;
 
 export default GlobalStyle;
